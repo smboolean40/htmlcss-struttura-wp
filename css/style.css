@@ -20,7 +20,7 @@
 header {
 	background-color: #e579e6;
 	height: 150px;
-	margin-bottom: 20px;
+	margin: 20px 0;
 }
 
 /* Main */
@@ -52,4 +52,11 @@ header {
 .col-center {
 	width: calc(60% - 40px);
 	margin: 0 20px;
+}
+
+/* Footer */
+footer {
+	background-color: #8801fe;
+	height: 80px;
+	margin: 10px 0 20px 0;
 }
