@@ -17,3 +17,10 @@ header {
 	height: 150px;
 	margin-bottom: 20px;
 }
+
+/* Main */
+.hero {
+	background-color: #e1d67a;
+	height: 600px;
+	margin-bottom: 20px;
+}
