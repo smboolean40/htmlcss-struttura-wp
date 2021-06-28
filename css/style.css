@@ -1,0 +1,19 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Common */
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+/* Header */
+header {
+	background-color: #e579e6;
+	height: 150px;
+	margin-bottom: 20px;
+}
