@@ -10,6 +10,11 @@
 	width: 80%;
 	margin: auto;
 }
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
 
 /* Header */
 header {
@@ -23,4 +28,28 @@ header {
 	background-color: #e1d67a;
 	height: 600px;
 	margin-bottom: 20px;
+}
+
+.leadership {
+	background-color: #0086ff;
+}
+.leadership-title {
+	background-color: #abcfe7;
+	height: 80px;
+}
+
+.row {
+	padding: 20px 0;
+}
+.col-left, .col-center, .col-right {
+	float: left;
+	background-color: #abcfe7;
+	border: 1px solid black;
+}
+.col-left, .col-right {
+	width: 20%;
+}
+.col-center {
+	width: calc(60% - 40px);
+	margin: 0 20px;
 }
